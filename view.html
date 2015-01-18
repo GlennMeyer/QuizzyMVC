@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Quizzy MVC</title>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mithril/0.1.28/mithril.js' type="text/javascript"></script>
+	<script type="text/javascript" src='controller.js'></script>
+	<script type="text/javascript" src='global.js'></script>
+	<script type="text/javascript" src='model.js'></script>
+	<link rel="stylesheet" href="stylesheets.css">
+</head>
+<body>
+	<div id='coolest-div-ever'></div>
+
+	<script>
+
+	var coolestDiv = document.getElementById('coolest-div-ever')
+
+	m.module(coolestDiv, {
+		controller: Quizzy.controller,
+		view: Quizzy.view
+	})
+
+
+	</script>
+</body>
+</html>

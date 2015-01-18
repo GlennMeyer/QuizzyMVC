@@ -1,0 +1,14 @@
+.redDiv {
+	width: 300px;
+	height: 30px;
+	background-color: red;
+	border-radius: 15px;
+}
+.greenDiv {
+	height: 30px;
+	background-color: green;
+	border-radius: 15px;
+}
+.highScores {
+	float: right;
+}
